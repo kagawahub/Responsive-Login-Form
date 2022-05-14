@@ -7,7 +7,6 @@
 }
 
 body {
-  padding-top: 3rem;
   background-color: rgb(230, 230, 230);
   display: flex;
   justify-content: center;
@@ -17,6 +16,7 @@ body {
 .box_container {
   background: white;
   border-radius: 5px;
+  margin-top: 3rem;
   width: 87%;
   height: 21rem;
   display: flex;
@@ -47,6 +47,9 @@ body {
   background: rgb(41, 136, 224);
   border: hidden;
 }
+.box_container button:hover {
+  background: blue;
+}
 
 .mini_container {
   width: 75%;
@@ -69,4 +72,12 @@ body {
 }
 .mini_container .checkbox_container p {
   margin-right: 6rem;
+}
+
+@media (min-width: 400px) {
+  .box_container {
+    margin-top: 4rem;
+    width: 22rem;
+    height: 22rem;
+  }
 }/*# sourceMappingURL=index.css.map */
